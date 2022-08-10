@@ -1,4 +1,5 @@
 DATABASE
+
   CREATE TABLE tb_category (
     id INT(55) AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
