@@ -65,3 +65,49 @@
             WHERE id = NEW.product_id;
         END
     END
+
+
+2.CHỨC NĂNG
+
+2.1.User
+
+	GET api
+	POST api/user/register
+	POST api/user/login
+    
+![image](https://user-images.githubusercontent.com/106986765/183906860-d8071b3b-c386-4c8d-b535-4dd93c648287.png)
+
+2.2.Category
+
+	GET api/category
+	GET api/category/:id 
+	POST api/category
+	PUT api/category/:id 
+	DELETE api/category/:id 
+	
+![image](https://user-images.githubusercontent.com/106986765/183907844-3dc83788-b5ba-4e55-b9e1-8960766622ac.png)
+	
+2.3.Product
+	
+	GET api/product
+	GET api/product/:id 
+	POST api/product 
+	PUT api/product/:id 
+	DELETE api/product/:id 
+
+![image](https://user-images.githubusercontent.com/106986765/183909288-01b679dd-1d10-492f-8eac-86e477638341.png)
+
+2.4.Search, Pagination, Sort in Product
+
+	GET /product/?search=nasi
+	GET product/?page=1&content=4
+	GET product/?order=name&sort=DESC
+	GET product/?order=category&sort=ASC
+	GET product/?order=date_update&sort=DESC
+	
+2.5.Add / Reduce Product Order
+
+	POST order/add
+	POST order/reduce
+
+	
